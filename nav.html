@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style:none;
+        }
+        .nav-box{
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: #ccc;
+        }
+        .nav-box .nav{
+            display: flex;
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+        }
+        .nav-box .nav li{
+            flex: 1;
+            border: 1px solid #000;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-box">
+        <ul class="nav">
+            <li>首页</li>
+            <li>物流</li>
+            <li>购物车</li>
+            <li>我的</li>
+        </ul>
+    </div>
+</body>
+</html>
